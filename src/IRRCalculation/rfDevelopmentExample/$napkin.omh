@@ -1,0 +1,23 @@
+Calculate iPreConstructionMonths as '2'
+Calculate iConstructionMonths as '22'
+Calculate iPostConstructionMonths as '2'
+Calculate iPerGSF as '392000.0'
+Calculate iPerRSF as '279844.0'
+Calculate iUnits as '255'
+Calculate iPRSFMonthly as '2.35'
+Calculate iVacancyCreditLossesPercentage as '0.0585'
+Calculate iCapRate as '0.045'
+
+Calculate iTotalMonths as iPreConstructionMonths+iConstructionMonths+iPostConstructionMonths
+Calculate iRentAnnual as iPRSFMonthly*iPerRSF*12
+Calculate iRentMonthly as iRentAnnual/12
+Calculate iOtherIncomeAnnual as iRentAnnual*iOtherIncomeRatioToRent
+Calculate iVacancy as (iRentAnnual+iOtherIncome)*iVacancyCreditLossesPercentage
+Calculate iOperatingExpenses as iRentAnnual+iOtherIncome-iVacancy-iOperatingExpenses
+
+Calculate iTotalMonths as isnumber(pRow)
+
+##Calculate iNOISale as iNetOperatingIncome*pwr((1+(iNOIGrowthRate/12))iTotalMonths) ## Function pwr() won't except iTotalMonths as an exponent
+Calculate iValue as iNOISale/iCapRate
+Do method $cinst.$napkin (iValue,iNetOperatingIncome) Returns iValue.iNetOperatingIncome
+Quit method #F

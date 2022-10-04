@@ -1,0 +1,6 @@
+Breakpoint
+Do iJSWorker.$callbackinst.$assign($cinst) Returns #F
+Do iJSWorker.$init() Returns #F
+Do iJSWorker.$start() Returns #F
+Calculate lRow as pRow
+Do iJSWorker.$callmethod('xirr',lMethod,lRow,kTrue,lErrorText) Returns #F

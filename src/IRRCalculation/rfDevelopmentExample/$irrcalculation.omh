@@ -1,0 +1,9 @@
+Do iJSWorker.$callbackinst.$assign($cinst) Returns #F
+Do iJSWorker.$init() Returns #F
+Do iJSWorker.$start() Returns #F
+Do lRow.$define()
+Do iJSWorker.$callmethod('xirr','calculateXirr',lRow,kTrue,lErrorText) Returns #F
+
+##Calculate iIRRCalculation as ((1+iJSWorker(iCashFlow))**12)-1
+Do method $cinst.$irrcalculation (iIRRCalculation) Returns iIRRCalculation
+Quit all methods

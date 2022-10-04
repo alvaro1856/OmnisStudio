@@ -1,0 +1,26 @@
+Do method $napkin (iTotalMonths,iPreConstructionMonths) Returns iTotalMonths.iPreConstructionMonths
+Do method $untrendedcost (iDevelopmentCosts,iLandCosts,iHardCosts,iSoftCosts) Returns iDevelopmentCosts.iLandcosts.iHardCosts.iSoftCosts
+Calculate iEquityPercentage as '0.04'
+Calculate iPreConstructionEquityPercentage as '1.0'
+
+Calculate iEquity as iEquityPercentage*iDevelopmentCosts
+Calculate iEquityAtZero as iPreConstructionEquityPercentage*iEquity
+Calculate iEquityConBeginning as iEquity-iEquityAtZero
+Do iCashFlow.$define(pRow) Returns pRow
+
+Calculate lPeriod as '1'
+While lPeriod<=iTotalMonths
+	If lPeriod=1
+		Do iCashFlow.$add(iEquityAtZero*(-1))
+	Else If lPeriod=iPreConstructionMonths+1
+		Do iCashFlow.$add(iEquityConBeginning*(-1))
+	Else If lPeriod=iTotalMonths
+		Do iCashFlow.$add(iEquity+iValue-iDevelopmentCosts)
+	Else
+		Do iCashFlow.$add(0)
+		##    Do lPeriod+=1 ## Can't find counter operation in Omnis
+	End If
+End While
+
+Do method $cinst.$cashflows (iCashFlow,iEquity) Returns iCashFlow.iEquity
+Quit all methods

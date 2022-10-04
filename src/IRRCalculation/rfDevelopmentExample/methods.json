@@ -1,0 +1,148 @@
+[
+	{
+		"name": "$construct",
+		"order": 1,
+		"clientexec": false,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$destruct",
+		"order": 2,
+		"clientexec": false,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "New Method",
+		"order": 3,
+		"clientexec": false,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		],
+		"empty": true
+	},
+	{
+		"name": "$developmentbudget",
+		"order": 4,
+		"clientexec": false,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$operatingbudget",
+		"order": 5,
+		"clientexec": false,
+		"pvardefs": [
+			{
+				"name": "pRow",
+				"order": 1,
+				"type": "kRow",
+				"subtype": "",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$napkin",
+		"order": 7,
+		"clientexec": false,
+		"pvardefs": [
+			{
+				"name": "pRow",
+				"order": 2,
+				"type": "kRow",
+				"subtype": "",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "lTotalMonths",
+				"order": 1,
+				"type": "kNumber",
+				"subtype": "k0dp",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$untrendedcost",
+		"order": 8,
+		"clientexec": false,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$cashflows",
+		"order": 9,
+		"clientexec": false,
+		"pvardefs": [
+			{
+				"name": "pRow",
+				"order": 2,
+				"type": "kRow",
+				"subtype": "",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "lPeriod",
+				"order": 1,
+				"type": "kNumber",
+				"subtype": "k0dp",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$irrcalculation",
+		"order": 10,
+		"clientexec": false,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "lErrorText",
+				"order": 2,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000
+			},
+			{
+				"name": "lRow",
+				"order": 1,
+				"type": "kRow",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	}
+]

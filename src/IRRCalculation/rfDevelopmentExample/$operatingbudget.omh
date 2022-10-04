@@ -1,0 +1,28 @@
+Do method $napkin (iUnits,iPerRSF,iRentAnnual,iRentMonthly,iOtherIncome,iVacancy,iOperatingExpenses,iNetOperatingIncome) Returns iUnits.iPerRSF.iRentAnnual.iRentMonthly.iOtherIncome.iVacancy.iOperatingExpenses.iNetOperatingIncome
+
+Calculate iAmountRent as iAmount*iRent
+Calculate iPerUnitRent as iPerUnit*iRent
+Calculate iPRSFMonthlyRent as iPRSFMonthly*iRent
+Calculate iPercentOfRents as iPercentOfRent*iRent
+
+Calculate iAmountOtherIncome as iAmount*iOtherIncome
+Calculate iPerUnitOtherIncome as iPerUnit*iOtherIncome
+Calculate iPRSFMonthlyOtherIncome as iPRSFMonthly*iOtherIncome
+Calculate iPercentOfRentOtherIncome as iPercentOfRent*iOtherIncome
+
+Calculate iAmountVacancy as iAmount*iVacancy
+Calculate iPerUnitVacancy as iPerUnit*iVacancy
+Calculate iPRSFMonthlyVacancy as iPRSFMonthly*iVacancy
+Calculate iPercentOfRentVacancy as iPercentOfRent*iVacancy
+
+Calculate iAmountOperatingExpense as iAmount*iOperatingExpenses
+Calculate iPerUnitOperatingExpense as iPerUnit*iOperatingExpenses
+Calculate iPRSFMonthlyOperatingExpense as iPRSFMonthly*iOperatingExpenses
+Calculate iPercentOfRentOperatingExpense as iPercentOfRent*iOperatingExpenses
+
+Calculate iAmountNetIncome as iAmount*iNetOperatingIncome
+Calculate iPerUnitNetIncome as iPerUnit*iNetOperatingIncome
+Calculate iPRSFMonthlyNetIncome as iPRSFMonthly*iNetOperatingIncome
+Calculate iPercentOfRentNetIncome as iPercentOfRent*iNetOperatingIncome
+
+Quit method #F

@@ -1,0 +1,42 @@
+Do method $napkin (iValue,iPerGSF,iPerRSF,iUnits) Returns iValue.iPerGSF.iPerRSF.iUnits
+Do method $untrendedcost (iDevelopmentCosts,iLandCosts,iHardCosts,iSoftCosts) Returns iDevelopmentCosts.iLandCosts.iHardCosts.iSoftCosts
+Calculate iProfit as iValue-iDevelopmentCosts
+Calculate iPercentOfValue as '100'
+
+Calculate iAmountValue as iAmount*iValue
+Calculate iPerUnitValue as iPerUnit*iValue
+Calculate iPerRSFValue as iPerRSF*iValue
+Calculate iPerGSFValue as iPerGSF*iValue
+Calculate iPercentOfValues as iPercentOfValue*iValue
+
+Calculate iAmountLandCost as iAmount*iLandCosts
+Calculate iPerUnitLandCost as iPerUnit*iLandCosts
+Calculate iPerRSFLandCost as iPerRSF*iLandCosts
+Calculate iPerGSFLandCost as iPerGSF*iLandCosts
+Calculate iPercentOfValueLandCost as iPercentOfValue*iLandCosts
+
+Calculate iAmountHardCost as iAmount*iHardCosts
+Calculate iPerUnitHardCost as iPerUnit*iHardCosts
+Calculate iPerRSFHardCost as iPerRSF*iHardCosts
+Calculate iPerGSFHardCost as iPerGSF*iHardCosts
+Calculate iPercentOfValueHardCost as iPercentOfValue*iHardCosts
+
+Calculate iAmountSoftCost as iAmount*iSoftCosts
+Calculate iPerUnitSoftCost as iPerUnit*iSoftCosts
+Calculate iPerRSFSoftCost as iPerRSF*iSoftCosts
+Calculate iPerGSFSoftCost as iPerGSF*iSoftCosts
+Calculate iPercentOfValueSoftCost as iPercentOfValue*iSoftCosts
+
+Calculate iAmountDevelopmentCost as iAmount*iDevelopmentCosts
+Calculate iPerUnitDevelopmentCost as iPerUnit*iDevelopmentCosts
+Calculate iPerRSFDevelopmentCost as iPerRSF*iDevelopmentCosts
+Calculate iPerGSFDevelopmentCost as iPerGSF*iDevelopmentCosts
+Calculate iPercentOfValueDevelopmentCost as iPercentOfValue*iDevelopmentCosts
+
+Calculate iAmountProfit as iAmount*iProfit
+Calculate iPerUnitProfit as iPerUnit*iProfit
+Calculate iPerRSFProfit as iPerRSF*iProfit
+Calculate iPerGSFProfit as iPerGSF*iProfit
+Calculate iPercentOfValueProfit as iPercentOfValue*iProfit
+
+Quit all methods

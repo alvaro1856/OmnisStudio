@@ -1,0 +1,8 @@
+On evClick
+	##Do method $calculatedcredentials
+	Breakpoint
+	Do iJSWorker.$callbackinst.$assign($cinst) Returns #F
+	Do iJSWorker.$init() Returns #F
+	Do iJSWorker.$start() Returns #F
+	Do lRow.$define()
+	Do iJSWorker.$callmethod('xirr','calculateXirr',lRow,kTrue,lErrorText) Returns #F

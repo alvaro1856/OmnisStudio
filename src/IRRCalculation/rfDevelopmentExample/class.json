@@ -1,0 +1,741 @@
+{
+	"classtype": "kRemoteForm",
+	"omnisversion": "10.2",
+	"internalversion": 16,
+	"designtaskname": "rtTask",
+	"nextident": 1095,
+	"lastgroupident": 0,
+	"cvardefs": [
+
+	],
+	"ivardefs": [
+		{
+			"name": "iAmount",
+			"order": 7,
+			"type": "kNumber",
+			"subtype": "k2dp",
+			"sublen": 0
+		},
+		{
+			"name": "iAmountDevelopmentCost",
+			"order": 63,
+			"type": "kNumber",
+			"subtype": "k2dp",
+			"sublen": 0
+		},
+		{
+			"name": "iAmountHardCost",
+			"order": 53,
+			"type": "kNumber",
+			"subtype": "k2dp",
+			"sublen": 0
+		},
+		{
+			"name": "iAmountLandCost",
+			"order": 48,
+			"type": "kNumber",
+			"subtype": "k2dp",
+			"sublen": 0
+		},
+		{
+			"name": "iAmountNetIncome",
+			"order": 91,
+			"type": "kNumber",
+			"subtype": "kFloatdp",
+			"sublen": 0
+		},
+		{
+			"name": "iAmountOperatingExpense",
+			"order": 86,
+			"type": "kNumber",
+			"subtype": "k2dp",
+			"sublen": 0
+		},
+		{
+			"name": "iAmountOtherIncome",
+			"order": 77,
+			"type": "kNumber",
+			"subtype": "k2dp",
+			"sublen": 0
+		},
+		{
+			"name": "iAmountProfit",
+			"order": 69,
+			"type": "kNumber",
+			"subtype": "k2dp",
+			"sublen": 0
+		},
+		{
+			"name": "iAmountRent",
+			"order": 74,
+			"type": "kNumber",
+			"subtype": "k2dp",
+			"sublen": 0
+		},
+		{
+			"name": "iAmountSoftCost",
+			"order": 58,
+			"type": "kNumber",
+			"subtype": "k2dp",
+			"sublen": 0
+		},
+		{
+			"name": "iAmountVacancy",
+			"order": 82,
+			"type": "kNumber",
+			"subtype": "k2dp",
+			"sublen": 0
+		},
+		{
+			"name": "iAmountValue",
+			"order": 43,
+			"type": "kNumber",
+			"subtype": "k2dp",
+			"sublen": 0
+		},
+		{
+			"name": "iAnnualGrowthRate",
+			"order": 24,
+			"type": "kNumber",
+			"subtype": "k2dp",
+			"sublen": 0
+		},
+		{
+			"name": "iCapRate",
+			"order": 23,
+			"type": "kNumber",
+			"subtype": "k2dp",
+			"sublen": 0
+		},
+		{
+			"name": "iCashFlow",
+			"order": 40,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "iConstructionMonths",
+			"order": 27,
+			"type": "kNumber",
+			"subtype": "k0dp",
+			"sublen": 0
+		},
+		{
+			"name": "iDevelopmentCosts",
+			"order": 5,
+			"type": "kNumber",
+			"subtype": "k2dp",
+			"sublen": 0
+		},
+		{
+			"name": "iEquity",
+			"order": 35,
+			"type": "kNumber",
+			"subtype": "k3dp",
+			"sublen": 0
+		},
+		{
+			"name": "iEquityAtZero",
+			"order": 38,
+			"type": "kNumber",
+			"subtype": "k3dp",
+			"sublen": 0
+		},
+		{
+			"name": "iEquityConBeginning",
+			"order": 39,
+			"type": "kNumber",
+			"subtype": "k3dp",
+			"sublen": 0
+		},
+		{
+			"name": "iEquityInvested",
+			"order": 20,
+			"type": "kNumber",
+			"subtype": "k2dp",
+			"sublen": 0
+		},
+		{
+			"name": "iEquityPercentage",
+			"order": 36,
+			"type": "kNumber",
+			"subtype": "k2dp",
+			"sublen": 0
+		},
+		{
+			"name": "iHardCosts",
+			"order": 3,
+			"type": "kNumber",
+			"subtype": "k2dp",
+			"sublen": 0
+		},
+		{
+			"name": "iIRR",
+			"order": 19,
+			"type": "kNumber",
+			"subtype": "k2dp",
+			"sublen": 0
+		},
+		{
+			"name": "iIRRCalculation",
+			"order": 41,
+			"type": "kNumber",
+			"subtype": "k3dp",
+			"sublen": 0
+		},
+		{
+			"name": "iJSWorker",
+			"order": 42,
+			"type": "kObject",
+			"subtype": ".OW3.OW3 Worker Objects\\JAVASCRIPTWorker",
+			"sublen": 0
+		},
+		{
+			"name": "iLandCosts",
+			"order": 2,
+			"type": "kNumber",
+			"subtype": "k2dp",
+			"sublen": 0
+		},
+		{
+			"name": "iNetOperatingIncome",
+			"order": 16,
+			"type": "kNumber",
+			"subtype": "k2dp",
+			"sublen": 0
+		},
+		{
+			"name": "iNOIGrowthRate",
+			"order": 34,
+			"type": "kNumber",
+			"subtype": "k3dp",
+			"sublen": 0
+		},
+		{
+			"name": "iNOISale",
+			"order": 33,
+			"type": "kNumber",
+			"subtype": "k3dp",
+			"sublen": 0
+		},
+		{
+			"name": "iOperatingExpenses",
+			"order": 15,
+			"type": "kNumber",
+			"subtype": "k2dp",
+			"sublen": 0
+		},
+		{
+			"name": "iOtherIncome",
+			"order": 13,
+			"type": "kNumber",
+			"subtype": "k2dp",
+			"sublen": 0
+		},
+		{
+			"name": "iOtherIncomeAnnual",
+			"order": 94,
+			"type": "kNumber",
+			"subtype": "k2dp",
+			"sublen": 0
+		},
+		{
+			"name": "iOtherIncomeRatioToRent",
+			"order": 32,
+			"type": "kNumber",
+			"subtype": "k2dp",
+			"sublen": 0
+		},
+		{
+			"name": "iPercentOfRent",
+			"order": 18,
+			"type": "kNumber",
+			"subtype": "k2dp",
+			"sublen": 0
+		},
+		{
+			"name": "iPercentOfRentNetIncome",
+			"order": 93,
+			"type": "kNumber",
+			"subtype": "kFloatdp",
+			"sublen": 0
+		},
+		{
+			"name": "iPercentOfRentOperatingExpense",
+			"order": 89,
+			"type": "kNumber",
+			"subtype": "k2dp",
+			"sublen": 0
+		},
+		{
+			"name": "iPercentOfRentOtherIncome",
+			"order": 81,
+			"type": "kNumber",
+			"subtype": "k2dp",
+			"sublen": 0
+		},
+		{
+			"name": "iPercentOfRents",
+			"order": 80,
+			"type": "kNumber",
+			"subtype": "k2dp",
+			"sublen": 0
+		},
+		{
+			"name": "iPercentOfRentVacancy",
+			"order": 85,
+			"type": "kNumber",
+			"subtype": "k2dp",
+			"sublen": 0
+		},
+		{
+			"name": "iPercentOfValue",
+			"order": 11,
+			"type": "kNumber",
+			"subtype": "k2dp",
+			"sublen": 0
+		},
+		{
+			"name": "iPercentOfValueDevelopmentCost",
+			"order": 67,
+			"type": "kNumber",
+			"subtype": "k2dp",
+			"sublen": 0
+		},
+		{
+			"name": "iPercentOfValueHardCost",
+			"order": 57,
+			"type": "kNumber",
+			"subtype": "k2dp",
+			"sublen": 0
+		},
+		{
+			"name": "iPercentOfValueLandCost",
+			"order": 52,
+			"type": "kNumber",
+			"subtype": "k2dp",
+			"sublen": 0
+		},
+		{
+			"name": "iPercentOfValueProfit",
+			"order": 73,
+			"type": "kNumber",
+			"subtype": "k2dp",
+			"sublen": 0
+		},
+		{
+			"name": "iPercentOfValues",
+			"order": 47,
+			"type": "kNumber",
+			"subtype": "k2dp",
+			"sublen": 0
+		},
+		{
+			"name": "iPercentOfValueSoftCost",
+			"order": 62,
+			"type": "kNumber",
+			"subtype": "k2dp",
+			"sublen": 0
+		},
+		{
+			"name": "iPerGSF",
+			"order": 10,
+			"type": "kNumber",
+			"subtype": "k2dp",
+			"sublen": 0
+		},
+		{
+			"name": "iPerGSFDevelopmentCost",
+			"order": 66,
+			"type": "kNumber",
+			"subtype": "k2dp",
+			"sublen": 0
+		},
+		{
+			"name": "iPerGSFHardCost",
+			"order": 56,
+			"type": "kNumber",
+			"subtype": "k2dp",
+			"sublen": 0
+		},
+		{
+			"name": "iPerGSFLandCost",
+			"order": 51,
+			"type": "kNumber",
+			"subtype": "k2dp",
+			"sublen": 0
+		},
+		{
+			"name": "iPerGSFProfit",
+			"order": 72,
+			"type": "kNumber",
+			"subtype": "k2dp",
+			"sublen": 0
+		},
+		{
+			"name": "iPerGSFSoftCost",
+			"order": 61,
+			"type": "kNumber",
+			"subtype": "k2dp",
+			"sublen": 0
+		},
+		{
+			"name": "iPerGSFValue",
+			"order": 46,
+			"type": "kNumber",
+			"subtype": "k2dp",
+			"sublen": 0
+		},
+		{
+			"name": "iPerRSF",
+			"order": 9,
+			"type": "kNumber",
+			"subtype": "k2dp",
+			"sublen": 0
+		},
+		{
+			"name": "iPerRSFDevelopmentCost",
+			"order": 65,
+			"type": "kNumber",
+			"subtype": "k2dp",
+			"sublen": 0
+		},
+		{
+			"name": "iPerRSFHardCost",
+			"order": 55,
+			"type": "kNumber",
+			"subtype": "k2dp",
+			"sublen": 0
+		},
+		{
+			"name": "iPerRSFLandCost",
+			"order": 50,
+			"type": "kNumber",
+			"subtype": "k2dp",
+			"sublen": 0
+		},
+		{
+			"name": "iPerRSFProfit",
+			"order": 71,
+			"type": "kNumber",
+			"subtype": "k2dp",
+			"sublen": 0
+		},
+		{
+			"name": "iPerRSFSoftCost",
+			"order": 60,
+			"type": "kNumber",
+			"subtype": "k2dp",
+			"sublen": 0
+		},
+		{
+			"name": "iPerRSFValue",
+			"order": 45,
+			"type": "kNumber",
+			"subtype": "k2dp",
+			"sublen": 0
+		},
+		{
+			"name": "iPerUnit",
+			"order": 8,
+			"type": "kNumber",
+			"subtype": "k2dp",
+			"sublen": 0
+		},
+		{
+			"name": "iPerUnitDevelopmentCost",
+			"order": 64,
+			"type": "kNumber",
+			"subtype": "k2dp",
+			"sublen": 0
+		},
+		{
+			"name": "iPerUnitHardCost",
+			"order": 54,
+			"type": "kNumber",
+			"subtype": "k2dp",
+			"sublen": 0
+		},
+		{
+			"name": "iPerUnitLandCost",
+			"order": 49,
+			"type": "kNumber",
+			"subtype": "k2dp",
+			"sublen": 0
+		},
+		{
+			"name": "iPerUnitNetIncome",
+			"order": 90,
+			"type": "kNumber",
+			"subtype": "k2dp",
+			"sublen": 0
+		},
+		{
+			"name": "iPerUnitOperatingExpense",
+			"order": 87,
+			"type": "kNumber",
+			"subtype": "k2dp",
+			"sublen": 0
+		},
+		{
+			"name": "iPerUnitOtherIncome",
+			"order": 78,
+			"type": "kNumber",
+			"subtype": "k2dp",
+			"sublen": 0
+		},
+		{
+			"name": "iPerUnitProfit",
+			"order": 70,
+			"type": "kNumber",
+			"subtype": "k2dp",
+			"sublen": 0
+		},
+		{
+			"name": "iPerUnitRent",
+			"order": 75,
+			"type": "kNumber",
+			"subtype": "k2dp",
+			"sublen": 0
+		},
+		{
+			"name": "iPerUnitSoftCost",
+			"order": 59,
+			"type": "kNumber",
+			"subtype": "k2dp",
+			"sublen": 0
+		},
+		{
+			"name": "iPerUnitVacancy",
+			"order": 83,
+			"type": "kNumber",
+			"subtype": "k2dp",
+			"sublen": 0
+		},
+		{
+			"name": "iPerUnitValue",
+			"order": 44,
+			"type": "kNumber",
+			"subtype": "k2dp",
+			"sublen": 0
+		},
+		{
+			"name": "iPostConstructionMonths",
+			"order": 28,
+			"type": "kNumber",
+			"subtype": "k0dp",
+			"sublen": 0
+		},
+		{
+			"name": "iPreConstructionEquityPercentage",
+			"order": 37,
+			"type": "kNumber",
+			"subtype": "k1dp",
+			"sublen": 0
+		},
+		{
+			"name": "iPreConstructionMonths",
+			"order": 26,
+			"type": "kNumber",
+			"subtype": "k0dp",
+			"sublen": 0
+		},
+		{
+			"name": "iProfit",
+			"order": 6,
+			"type": "kNumber",
+			"subtype": "k2dp",
+			"sublen": 0
+		},
+		{
+			"name": "iProfitExcludingNOI",
+			"order": 21,
+			"type": "kNumber",
+			"subtype": "k2dp",
+			"sublen": 0
+		},
+		{
+			"name": "iPRSFMonthly",
+			"order": 17,
+			"type": "kNumber",
+			"subtype": "k2dp",
+			"sublen": 0
+		},
+		{
+			"name": "iPRSFMonthlyNetIncome",
+			"order": 92,
+			"type": "kNumber",
+			"subtype": "k2dp",
+			"sublen": 0
+		},
+		{
+			"name": "iPRSFMonthlyOperatingExpense",
+			"order": 88,
+			"type": "kNumber",
+			"subtype": "k2dp",
+			"sublen": 0
+		},
+		{
+			"name": "iPRSFMonthlyOtherIncome",
+			"order": 79,
+			"type": "kNumber",
+			"subtype": "k2dp",
+			"sublen": 0
+		},
+		{
+			"name": "iPRSFMonthlyRent",
+			"order": 76,
+			"type": "kNumber",
+			"subtype": "k2dp",
+			"sublen": 0
+		},
+		{
+			"name": "iPRSFMonthlyVacancy",
+			"order": 84,
+			"type": "kNumber",
+			"subtype": "k2dp",
+			"sublen": 0
+		},
+		{
+			"name": "iRent",
+			"order": 12,
+			"type": "kNumber",
+			"subtype": "k2dp",
+			"sublen": 0
+		},
+		{
+			"name": "iRentAnnual",
+			"order": 29,
+			"type": "kNumber",
+			"subtype": "k2dp",
+			"sublen": 0
+		},
+		{
+			"name": "iRentMonthly",
+			"order": 30,
+			"type": "kNumber",
+			"subtype": "k2dp",
+			"sublen": 0
+		},
+		{
+			"name": "iSoftCosts",
+			"order": 4,
+			"type": "kNumber",
+			"subtype": "k2dp",
+			"sublen": 0
+		},
+		{
+			"name": "iTotalMonths",
+			"order": 25,
+			"type": "kNumber",
+			"subtype": "k0dp",
+			"sublen": 0
+		},
+		{
+			"name": "iUnits",
+			"order": 68,
+			"type": "kNumber",
+			"subtype": "k0dp",
+			"sublen": 0
+		},
+		{
+			"name": "iUntrendedReturn",
+			"order": 22,
+			"type": "kNumber",
+			"subtype": "k2dp",
+			"sublen": 0
+		},
+		{
+			"name": "iVacancy",
+			"order": 14,
+			"type": "kNumber",
+			"subtype": "k2dp",
+			"sublen": 0
+		},
+		{
+			"name": "iVacancyAnnual",
+			"order": 95,
+			"type": "kNumber",
+			"subtype": "k2dp",
+			"sublen": 0
+		},
+		{
+			"name": "iVacancyCreditLossesPercentage",
+			"order": 31,
+			"type": "kNumber",
+			"subtype": "k3dp",
+			"sublen": 0
+		},
+		{
+			"name": "iValue",
+			"order": 1,
+			"type": "kNumber",
+			"subtype": "k2dp",
+			"sublen": 0
+		}
+	],
+	"properties": {
+		"aligntogrid": false,
+		"alpha": 255,
+		"alwaysenabledobject": "",
+		"animatelayouttransitions": true,
+		"backalpha": 255,
+		"backcolor": "kColorDefault",
+		"backpattern": 1,
+		"cancelkeyobject": "",
+		"canremotedebugwhenlocked": false,
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"contextmenu": "",
+		"createdate": "2022-09-12 15:29:00",
+		"currentlayoutbreakpoint": 768,
+		"defaultappearance": "kAppearanceiOS",
+		"desc": "",
+		"designshowmobiletitle": true,
+		"disabledefaultcontextmenu": false,
+		"editor": "",
+		"editordata": "",
+		"events": "",
+		"external": true,
+		"forecolor": "kColorDefault",
+		"horzgrid": 8,
+		"horzscroll": false,
+		"inheritedorder": 0,
+		"issupercomponent": false,
+		"layoutbreakpoints": "320,768",
+		"layouttype": "kLayoutTypeResponsive",
+		"left": 137,
+		"menulineheight": 44,
+		"moddate": "2022-10-05 01:34:24",
+		"okkeyobject": "",
+		"serverlessclient": false,
+		"showascheckedout": false,
+		"showgrid": false,
+		"sizetogrid": false,
+		"startfield": 0,
+		"title": {
+			"type": 0,
+			"calc": "New remote form"
+		},
+		"top": 12,
+		"userinfo": "",
+		"vcsrevision": 0,
+		"version": "1",
+		"vertgrid": 8,
+		"vertscroll": false
+	},
+	"layout": {
+		"width": 885,
+		"height": 696,
+		"320": {
+			"height": 0,
+			"padding": 2
+		},
+		"768": {
+			"height": 0,
+			"padding": 2
+		}
+	}
+}

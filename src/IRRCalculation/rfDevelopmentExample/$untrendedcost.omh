@@ -1,0 +1,11 @@
+Do method $napkin (iNetOperatingIncome) Returns iNetOperatingIncome
+
+Calculate iLandCosts as '6250000.0'
+Calculate iHardCosts as '56000000.0'
+Calculate iSoftCosts as '30750000.0'
+
+Calculate iDevelopmentCosts as iLandCosts+iHardCosts+iSoftCosts
+Calculate iUntrendedReturn as iNetOperatingIncome/iDevelopmentCosts
+
+Do method $cinst.$untrendedcost (iUntrendedReturn) Returns iUntrendedReturn
+Quit all methods
